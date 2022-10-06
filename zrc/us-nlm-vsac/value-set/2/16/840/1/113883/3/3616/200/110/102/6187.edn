@@ -1,0 +1,10 @@
+{ns us-nlm-vsac.value-set.2.16.840.1.113883.3.3616.200.110.102.6187,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url "http://snomed.info/sct", :zen.fhir/content :bundled}},
+  :uri
+  "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.3616.200.110.102.6187",
+  :version "20201223"}}

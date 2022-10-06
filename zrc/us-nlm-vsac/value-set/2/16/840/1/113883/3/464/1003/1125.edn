@@ -1,0 +1,11 @@
+{ns us-nlm-vsac.value-set.2.16.840.1.113883.3.464.1003.1125,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url "http://www.nlm.nih.gov/research/umls/rxnorm",
+     :zen.fhir/content :bundled}},
+  :uri
+  "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1125",
+  :version "20210915"}}
