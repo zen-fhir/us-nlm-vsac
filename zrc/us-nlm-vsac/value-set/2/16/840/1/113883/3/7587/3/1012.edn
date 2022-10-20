@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set
  {:zen/tags #{zen.fhir/value-set},
-  :zen.fhir/version "0.5.23",
+  :zen.fhir/version "0.5.24",
   :fhir/code-systems #{},
   :uri
   "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.7587.3.1012",
