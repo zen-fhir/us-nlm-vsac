@@ -2,10 +2,17 @@
  import #{zen.fhir},
  value-set
  {:zen/tags #{zen.fhir/value-set},
-  :zen.fhir/version "0.5.25-1",
+  :zen.fhir/version "0.5.26-5",
   :fhir/code-systems
   #{{:fhir/url "http://www.ama-assn.org/go/cpt",
      :zen.fhir/content :bundled}},
   :uri
   "http://cts.nlm.nih.gov/fhir/ValueSet/1.2.91.13925.17760.12640822",
-  :version "20170526"}}
+  :version "20170526",
+  :ftr
+  {:module "ig",
+   :source-url "node_modules/us.nlm.vsac",
+   :source-type :ig,
+   :ftr-path "ftr",
+   :zen/package-name "us-nlm-vsac",
+   :tag "init"}}}

@@ -2,11 +2,18 @@
  import #{zen.fhir},
  value-set
  {:zen/tags #{zen.fhir/value-set},
-  :zen.fhir/version "0.5.25-1",
+  :zen.fhir/version "0.5.26-5",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
      :zen.fhir/content :bundled}},
   :uri
   "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.560.100.2",
-  :version "20160331"}}
+  :version "20160331",
+  :ftr
+  {:module "ig",
+   :source-url "node_modules/us.nlm.vsac",
+   :source-type :ig,
+   :ftr-path "ftr",
+   :zen/package-name "us-nlm-vsac",
+   :tag "init"}}}

@@ -2,10 +2,17 @@
  import #{zen.fhir},
  value-set
  {:zen/tags #{zen.fhir/value-set},
-  :zen.fhir/version "0.5.25-1",
+  :zen.fhir/version "0.5.26-5",
   :fhir/code-systems
   #{{:fhir/url "http://snomed.info/sct",
      :zen.fhir/content :not-present}},
   :uri
   "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.1354",
-  :version "20210928"}}
+  :version "20210928",
+  :ftr
+  {:module "ig",
+   :source-url "node_modules/us.nlm.vsac",
+   :source-type :ig,
+   :ftr-path "ftr",
+   :zen/package-name "us-nlm-vsac",
+   :tag "init"}}}

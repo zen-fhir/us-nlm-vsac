@@ -3,10 +3,17 @@
  import #{zen.fhir},
  value-set
  {:zen/tags #{zen.fhir/value-set},
-  :zen.fhir/version "0.5.25-1",
+  :zen.fhir/version "0.5.26-5",
   :fhir/code-systems
   #{{:fhir/url "http://hl7.org/fhir/sid/icd-9-cm",
      :zen.fhir/content :bundled}},
   :uri
   "http://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.6997.4.1.2.265.9.31112.1.13.1.999.229",
-  :version "20170304"}}
+  :version "20170304",
+  :ftr
+  {:module "ig",
+   :source-url "node_modules/us.nlm.vsac",
+   :source-type :ig,
+   :ftr-path "ftr",
+   :zen/package-name "us-nlm-vsac",
+   :tag "init"}}}
