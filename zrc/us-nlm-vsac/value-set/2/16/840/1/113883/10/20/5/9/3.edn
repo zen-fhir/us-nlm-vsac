@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set
  {:zen/tags #{zen.fhir/value-set},
-  :zen.fhir/version "0.5.26-5",
+  :zen.fhir/version "0.5.28",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActCode",
      :zen.fhir/content :bundled}},
@@ -14,5 +14,4 @@
    :source-url "node_modules/us.nlm.vsac",
    :source-type :ig,
    :ftr-path "ftr",
-   :zen/package-name "us-nlm-vsac",
    :tag "init"}}}
