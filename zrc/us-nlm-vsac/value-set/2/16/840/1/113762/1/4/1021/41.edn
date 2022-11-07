@@ -2,16 +2,16 @@
  import #{zen.fhir},
  value-set
  {:zen/tags #{zen.fhir/value-set},
-  :zen.fhir/version "0.5.30-1",
+  :zen.fhir/version "0.5.31-1",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-     :zen.fhir/content :not-present}},
+     :zen.fhir/content :bundled}},
   :uri
   "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1021.41",
   :version "20190101",
   :ftr
   {:module "ig",
-   :source-url "node_modules/us.nlm.vsac",
-   :source-type :ig,
+   :source-urls ["node_modules/us.nlm.vsac"],
+   :source-type :igs,
    :ftr-path "ftr",
    :tag "init"}}}

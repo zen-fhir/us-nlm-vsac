@@ -2724,6 +2724,7 @@
    us-nlm-vsac.value-set.2.16.840.1.113762.1.4.1195.335
    us-nlm-vsac.value-set.2.16.840.1.113883.3.464.1003.198.11.1051
    us-nlm-vsac.value-set.2.16.840.1.113762.1.4.1146.1366
+   hl7-fhir-r4-core
    us-nlm-vsac.value-set.2.16.840.1.113762.1.4.1222.4
    us-nlm-vsac.value-set.2.16.840.1.113762.1.4.1045.177
    us-nlm-vsac.value-set.2.16.840.1.113883.3.3616.200.110.102.6289
