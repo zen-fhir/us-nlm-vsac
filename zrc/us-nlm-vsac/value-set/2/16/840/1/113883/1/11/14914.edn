@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set
  {:zen/tags #{zen.fhir/value-set},
-  :zen.fhir/version "0.5.33-1",
+  :zen.fhir/version "0.6.0",
   :fhir/code-systems
   #{{:fhir/url "urn:oid:2.16.840.1.113883.6.238",
      :zen.fhir/content :not-present}},
