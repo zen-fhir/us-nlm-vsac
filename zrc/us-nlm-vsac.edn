@@ -1,5 +1,5 @@
 {ns us-nlm-vsac,
- import #{zen.fhir hl7-fhir-r4-core},
+ import #{zen.fhir},
  ig {:zen/tags #{zen.fhir/ig}, :value-sets value-sets},
  value-sets
  {:zen/tags #{zen.fhir/value-sets},
