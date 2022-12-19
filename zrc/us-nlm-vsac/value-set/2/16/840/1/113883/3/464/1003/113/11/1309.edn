@@ -1,16 +1,13 @@
 {ns us-nlm-vsac.value-set.2.16.840.1.113883.3.464.1003.113.11.1309,
  import #{zen.fhir},
- value-set
- {:zen/tags #{zen.fhir/value-set},
-  :zen.fhir/version "0.6.6-7",
-  :fhir/code-systems
-  #{{:fhir/url "http://snomed.info/sct", :zen.fhir/content :bundled}},
-  :uri
-  "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.113.11.1309",
-  :version "20210220",
-  :ftr
-  {:module "ig",
-   :source-urls ["node_modules/us.nlm.vsac"],
-   :source-type :igs,
-   :ftr-path "ftr",
-   :tag "init"}}}
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen.fhir/version "0.6.6-8",
+            :fhir/code-systems #{{:fhir/url "http://snomed.info/sct",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.113.11.1309",
+            :version "20210220",
+            :ftr {:module "ig",
+                  :source-urls ["node_modules/us.nlm.vsac"],
+                  :source-type :igs,
+                  :ftr-path "ftr",
+                  :tag "init"}}}

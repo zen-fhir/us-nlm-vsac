@@ -1,18 +1,15 @@
 {ns us-nlm-vsac.value-set.1.2.91.13925.17760.26878039,
  import #{zen.fhir},
- value-set
- {:zen/tags #{zen.fhir/value-set},
-  :zen.fhir/version "0.6.6-7",
-  :fhir/code-systems
-  #{{:fhir/url "http://www.ama-assn.org/go/cpt",
-     :zen.fhir/content :bundled}
-    {:fhir/url "http://loinc.org", :zen.fhir/content :bundled}},
-  :uri
-  "http://cts.nlm.nih.gov/fhir/ValueSet/1.2.91.13925.17760.26878039",
-  :version "20170608",
-  :ftr
-  {:module "ig",
-   :source-urls ["node_modules/us.nlm.vsac"],
-   :source-type :igs,
-   :ftr-path "ftr",
-   :tag "init"}}}
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen.fhir/version "0.6.6-8",
+            :fhir/code-systems #{{:fhir/url "http://www.ama-assn.org/go/cpt",
+                                  :zen.fhir/content :bundled}
+                                 {:fhir/url "http://loinc.org",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://cts.nlm.nih.gov/fhir/ValueSet/1.2.91.13925.17760.26878039",
+            :version "20170608",
+            :ftr {:module "ig",
+                  :source-urls ["node_modules/us.nlm.vsac"],
+                  :source-type :igs,
+                  :ftr-path "ftr",
+                  :tag "init"}}}
