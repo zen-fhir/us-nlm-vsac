@@ -1,7 +1,7 @@
 {ns us-nlm-vsac.value-set.2.16.840.1.113762.1.4.1222.1333,
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
-            :zen.fhir/version "0.6.7",
+            :zen.fhir/version "0.6.7-2",
             :fhir/code-systems #{{:fhir/url "http://loinc.org",
                                   :zen.fhir/content :not-present}
                                  {:fhir/url "http://snomed.info/sct",
