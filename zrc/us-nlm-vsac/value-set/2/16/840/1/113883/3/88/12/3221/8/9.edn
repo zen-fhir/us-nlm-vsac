@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "(Clinical Focus: All SNOMED CT anatomic structures, locations, abnormal structures that can be considered to describe an anatomical site.),(Data Element Scope: data element describing body location),(Inclusion Criteria: SNOMED CT concepts descending from the Anatomical Structure (91723000) or Acquired body structure (body structure) (280115004) or Anatomical site notations for tumor staging (body structure) (258331007) or Body structure, altered from its original anatomical structure (morphologic abnormality) (118956008) or Physical anatomical entity (body structure) (91722005)),(Exclusion Criteria: none)",
-            :zen.fhir/version "0.6.12-1",
+            :zen.fhir/version "0.16.13-2",
             :fhir/code-systems #{{:fhir/url "http://snomed.info/sct",
                                   :zen.fhir/content :bundled}},
             :uri "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.3221.8.9",
