@@ -1,7 +1,7 @@
 {ns us-nlm-vsac.value-set.2.16.840.1.113883.3.117.1.7.1.286,
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
-            :zen.fhir/version "0.6.19",
+            :zen.fhir/version "0.6.20-2",
             :fhir/code-systems #{{:fhir/url "http://hl7.org/fhir/sid/icd-10-cm",
                                   :zen.fhir/content :bundled}
                                  {:fhir/url "http://snomed.info/sct",
