@@ -1,7 +1,7 @@
 {ns us-nlm-vsac.value-set.3.1,
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
-            :zen.fhir/version "0.6.25-1",
+            :zen.fhir/version "0.6.27",
             :fhir/code-systems #{{:fhir/url "http://www.ama-assn.org/go/cpt",
                                   :zen.fhir/content :bundled}},
             :uri "http://cts.nlm.nih.gov/fhir/ValueSet/3.1",
