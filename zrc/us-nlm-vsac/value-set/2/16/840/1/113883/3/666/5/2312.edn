@@ -1,7 +1,7 @@
 {ns us-nlm-vsac.value-set.2.16.840.1.113883.3.666.5.2312,
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
-            :zen.fhir/version "0.6.30-7",
+            :zen.fhir/version "0.6.30-10",
             :fhir/code-systems #{{:fhir/url "http://www.icd10data.com/icd10pcs",
                                   :zen.fhir/content :bundled}},
             :uri "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.666.5.2312",
